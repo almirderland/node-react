@@ -1,11 +1,11 @@
 import axios from "axios";
 
 const $host = axios.create({
-    baseURL: "http://decodeblog.almirakhalitova.site"
+    baseURL: "http://decodeblogapi.almirakhalitova.site"
 })
 
 const $authHost = axios.create({
-    baseURL: "http://decodeblog.almirakhalitova.site"
+    baseURL: "http://decodeblogapi.almirakhalitova.site"
 })
 
 const authInterceptor = config => {
